@@ -1,0 +1,103 @@
+#pageWrap {
+	font-family: ariel;
+	width: 600px;
+	margin: auto;
+	height: 500px;
+	overflow: hidden;
+}
+
+#left {
+	float: left;
+	width: 60%;
+	margin-right: 25px;
+}
+
+#left p {
+	display: inline;
+}
+
+#tm {
+	float: right;
+}
+#ob {
+	float: left;
+}
+#input {
+	margin-top: 25px;
+	width: 70%;
+	float: left;
+}
+#userInput, #auto {
+	width: 100%;
+}
+#auto {
+	border: solid 1px lightgrey;
+}
+#auto p {
+	display: block;
+	margin: 1px;
+}
+#auto p:first-child {
+	background-color: lightgrey;
+}
+#auto p:hover {
+	background-color: lightgrey !important;
+}
+#auto:hover p:first-child {
+	background-color: initial;
+}
+#add {
+	margin-top: 25px;
+	float: right;
+}
+
+#right {
+	float: left;
+	width: 30%;
+}
+
+#right p {
+	margin: 0;
+}
+
+
+#addedUI {
+	margin-top: 25px;
+	border: solid thin black;
+	min-height: 300px;
+}
+.ui-helper-hidden-accessible {
+	display: none !important;
+}
+#addedUI div {
+	margin-top: 10px;
+	background-color: lightgray;
+	padding: 5px;
+}
+#addedUI span {
+	float: right;
+	cursor: pointer;
+}
+#addedUI span:after {
+	content: "x";
+}
+.addedUI p {
+	display: inline;
+}
+
+#progressbar {
+	height: 40px;
+	width: 100%;
+	border: solid 4px black;
+}
+#proc {
+	float: left;
+	width: 0;
+	height: 100%;
+	background-color: orange;
+	border-right: solid 2px black;
+	-o-transition: width 3s;
+	-moz-transition: width 3s;
+	-webkit-transition: width 3s;
+    transition: width 3s;
+}
